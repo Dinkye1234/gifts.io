@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бидний тухай</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+              <h1 class="logo">
+                    <span class="text-primary">
+                          <i class="fa-solid fa-gift"></i> Lily
+                    </span>Gifts
+              </h1>
+              <ul>
+                    <li><a  href="./index.html">Нүүр</a></li>
+                     <li><a class="home-active" href="./about.html">Нэвтрэх</a></li>
+              </ul>
+  
+        </div>
+  </header>
+  <section class="login">
+      <div class="bd">
+            <div class="login-box">
+                <form class="login-form" onsubmit="return form1()" id="login-form">
+                <h2>Login</h2>
+                <div class="input-box">
+                      <input type="emailPhone" id="emailPhone" placeholder="И-мэйл хаяг эсвэл гар утасны дугаар ">
+                      <input type="password" id="password" placeholder="Нууц үгээ оруулна уу">
+                      <button class="btn1" type="submit" onclick="return validate()">Нэвтрэх</button>
+                      <div id="errorbox"> </div>
+                      <div class="register-link">
+                            <p> шинэ хэрэглэгч болох <a href="./burguuleh.html">Бүртгүүлэх</a></p>
+                      </div>
+                    
+                      <div id="eswel">эсвэл</div>
+                      <button class="btn2" type="submit"><span class="icon Facebook"><i class="fa-brands fa-facebook"></i></span>Facebook -ээр нэвтрэх</button>
+                      <button class="btn3" type="submit"><span class="icon gmail"><i class="fa-solid fa-g"></i> </span>Gmail-ээр нэвтрэх</button>
+                </div>
+            </form>
+            </div>
+      </div>
+  </section>
+
+  <footer id="main-footer">
+      <div class="footer-content">
+            <h1 ><span class="text-primary"><i class="fa-solid fa-gift"></i> Lily
+            </span>Gifts</span>.mn</h1>
+            <h3><i id="color" class="fa-solid fa-envelope"></i> И-мэйл: Lily-Gifts@gmail.com</h3>
+            <h3><i id="color" class="fa-solid fa-phone"></i> Утас: 99118309</h3>
+      </div>
+      <div class="footer-addres">
+            <h4>Хаяг/байршил</h4>
+            <p><i id="color" class="fa-solid fa-location-dot"></i> Хаяг: УБ хот,Баянзүрх дүүрэг,38-р хороо</p>
+            <h4>бидэнтэй нэгдэх</h4><br>
+            <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-whatsapp"></i>
+
+      </div>
+</footer>
+</body>
+</html>

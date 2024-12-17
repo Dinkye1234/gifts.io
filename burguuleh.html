@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бидний тухай</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./main.js"></script>
+</head>
+<body>
+    <header>
+        <div id="navbar">
+              <h1 class="logo">
+                    <span class="text-primary">
+                          <i class="fa-solid fa-gift"></i> Lily
+                    </span>Gifts
+              </h1>
+              <ul>
+                    <li><a  href="./index.html">Нүүр</a></li>
+                     <li><a class="home-active" href="./about.html">Нэвтрэх</a></li>
+              </ul>
+  
+        </div>
+  </header>
+  <section class="login">
+      <div class="bd">
+            <div class="login-box register">
+                <form action="" id="loginform" onsubmit="return form2()">
+                <h2>Бүртгүүлэх</h2>
+                <div class="input-box">
+                      <input type="emailPhone" id="emailPhone" placeholder="Овог">
+                      <input type="emailPhone" id="emailPhone" placeholder="Нэр ">
+                      <input type="emailPhone" id="emailPhone" placeholder="Гар утасны дугаар ">
+                      <input type="emailPhone" id="emailPhone" placeholder="И-мэйл хаяг">
+                      <li id="choise">Аймаг: 
+                        <select name="province" id="province">
+                            <option selected value="Default">(Сонголт хийнэ үү)</option>
+                            <option value="AR">Архангай</option>
+                            <option value="BU">Баян-Өлгий</option>
+                            <option value="BH">Баянхонгор</option>
+                            <option value="BUL">Булган</option>
+                            <option value="GA">Говь-Алтай</option>
+                            <option value="GS">Говьсүмбэр</option>
+                            <option value="DU">Дундговь</option>
+                            <option value="DA">Дархан</option>
+                            <option value="DG">Дорноговь</option>
+                            <option value="DO">Дорнод</option>
+                            <option value="ZA">Завхан</option>
+                            <option value="OR">Орхон</option>
+                            <option value="OV">Өвөрхангай</option>
+                            <option value="UM">Өмнөговь</option>
+                            <option value="SU">Сүхбаатар</option>
+                            <option value="SE">Сэлэнгэ</option>
+                            <option value="UV">Увс</option>
+                            <option value="HO">Ховд</option>
+                            <option value="HU">Хөвсгөл</option>
+                            <option value="HE">Хэнтий</option>
+                            <option value="UB">Улаанбаатар</option>  
+                        </select>
+                    </li>
+                                     
+                      <input type="emailPhone" id="emailPhone" placeholder="Сум / Дүүрэг ">
+                      <input type="emailPhone" id="emailPhone" placeholder="Хороо ">
+                      <input type="emailPhone" id="emailPhone" placeholder="Гэрийн хаяг ">
+                      <input type="emailPhone" id="emailPhone" placeholder="Топ хэрэглэгч эсэх">
+<!-- 
+                      onclick="return validate()" -->
+                      <button class="btn1" type="submit"  ondblclick="return form2()">Бүртгүүлэх</button>
+                      <div id="errorbox"> </div>
+                      <div class="register-link">
+                            <p> Та бүртгэлтэй бол <a href="./newtereh.html">Нэвтрэх</a></p>
+                      </div>
+                </div>
+            </form>
+            </div>
+      </div>
+  </section>
+
+  <footer id="main-footer">
+      <div class="footer-content">
+            <h1 ><span class="text-primary"><i class="fa-solid fa-gift"></i> Lily
+            </span>Gifts</span>.mn</h1>
+            <h3><i id="color" class="fa-solid fa-envelope"></i> И-мэйл: Lily-Gifts@gmail.com</h3>
+            <h3><i id="color" class="fa-solid fa-phone"></i> Утас: 99118309</h3>
+      </div>
+      <div class="footer-addres">
+            <h4>Хаяг/байршил</h4>
+            <p><i id="color" class="fa-solid fa-location-dot"></i> Хаяг: УБ хот,Баянзүрх дүүрэг,38-р хороо</p>
+            <h4>бидэнтэй нэгдэх</h4><br>
+            <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-whatsapp"></i>
+
+      </div>
+</footer>
+</body>
+</html>
